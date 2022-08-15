@@ -345,6 +345,8 @@ WHERE FirstName LIKE 'A%';
 
 SELECT * FROM employees WHERE LastName LIKE '%s';
 
+SELECT * FROM desserts WHERE name LIKE '%Chocolate%'; // Prints desserts with Chocolate anywhere in the field. 
+
 ============================
 
 The MIN Function is used to return the minimum value of an expression in a SELECT statement. For example, you might wish to know the minimum salary among the employees. ALL of the SQL functions can be combined together to create a single expression.
