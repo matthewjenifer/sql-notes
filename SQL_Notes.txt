@@ -721,3 +721,5 @@ SELECT Animals.name, animals.type, countries.country FROM Animals
 INNER JOIN Countries
 ON  Animals.country_id = Countries.id
 ORDER BY Countries.country;
+
+https://www.sololearn.com/Certificate/CT-VLA2EPXW/png
